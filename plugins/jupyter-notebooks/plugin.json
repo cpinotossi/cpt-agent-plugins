@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "jupyter-notebooks",
+  "version": "1.0.0",
+  "description": "Create Jupyter notebooks on a Bash kernel from a Python environment, with shellscript code cells, on Linux, macOS, and Windows (WSL).",
+  "author": {
+    "name": "cpinotossi",
+    "url": "https://github.com/cpinotossi"
+  },
+  "repository": "https://github.com/cpinotossi/cpt-agent-plugins",
+  "license": "MIT",
+  "keywords": ["jupyter", "notebook", "bash", "kernel", "shellscript"]
+}

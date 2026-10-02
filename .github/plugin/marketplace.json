@@ -1,0 +1,26 @@
+{
+  "name": "cpt-agent-plugins",
+  "metadata": {
+    "description": "Personal agent plugins for GitHub Copilot in VS Code and Copilot CLI.",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "cpinotossi"
+  },
+  "plugins": [
+    {
+      "name": "jupyter-notebooks",
+      "source": "./plugins/jupyter-notebooks",
+      "description": "Create Jupyter notebooks on a Bash kernel from a Python environment, with shellscript code cells, on Linux, macOS, and Windows (WSL).",
+      "version": "1.0.0",
+      "keywords": [
+        "jupyter",
+        "notebook",
+        "bash",
+        "kernel",
+        "shellscript"
+      ],
+      "license": "MIT"
+    }
+  ]
+}

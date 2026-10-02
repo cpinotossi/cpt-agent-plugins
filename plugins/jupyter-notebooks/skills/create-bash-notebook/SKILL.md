@@ -1,6 +1,6 @@
 ---
 name: create-bash-notebook
-description: "Create Jupyter notebooks that run on a Bash kernel from a Python environment and add code cells as shellscript, on Linux, macOS, and Windows (WSL). WHEN: \"create bash notebook\", \"notebook with bash kernel\", \"add shell cell to notebook\", \"cell shows bash instead of shellscript\", \"bash kernel missing\", \"set up bash kernel\" - Brought to you by cpinotossi/agent-plugins"
+description: "Create Jupyter notebooks that run on a Bash kernel from a Python environment and add code cells as shellscript, on Linux, macOS, and Windows (WSL). WHEN: \"create bash notebook\", \"notebook with bash kernel\", \"add shell cell to notebook\", \"cell shows bash instead of shellscript\", \"bash kernel missing\", \"set up bash kernel\" - Brought to you by cpinotossi/cpt-agent-plugins"
 license: MIT
 metadata:
   author: cpinotossi
@@ -169,4 +169,4 @@ to later cells. The start directory is the notebook's folder.
 | Cell hangs until timeout | interactive command or pager | avoid stdin, disable pagers |
 | `ensurepip is not available` | `python3-venv` missing | `sudo apt install python3-venv` |
 
-> Brought to you by cpinotossi/agent-plugins
+> Brought to you by cpinotossi/cpt-agent-plugins
